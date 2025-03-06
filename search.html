@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Weather Application</title>
+</head>
+<body>
+    <div class="parent">
+        <div id="search-box">
+            <div class="input-container">
+                <input type="text" spellcheck="false" id="location" placeholder="enter location">
+                <span>cancel</span>
+            </div>
+            <ul id="result-list"></ul>
+        </div>
+        <div id="weather-info">
+            <div class="place-name" id="place-name"></div>
+            <div class="weather-icon" id="weather-icon-container"></div> <!-- Container for icon and description -->
+            <div class="weather-description" id="weather-description"></div>
+        </div>
+        <div class="weather-details">
+            <div class="weather-box" id="celius"></div>
+            <div class="weather-box" id="windspeed"></div>
+            <div class="weather-box" id="humidity"></div>
+            <div class="weather-box" id="currentweather"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
